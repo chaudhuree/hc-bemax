@@ -156,6 +156,7 @@ img {
 .owl-nav {
 }
 .owl-nav button {
+  display: block !important;
   color: #fff !important;
   width: 40px;
   height: 40px;
@@ -171,6 +172,28 @@ img {
 .owl-nav button.owl-prev {
   left: 50px;
 }
+.owl-dots {
+  height: 0;
+}
+.owl-dot {
+  width: 15px;
+  height: 15px;
+  background: #5959df !important;
+  border-radius: 100%;
+  margin: 0 2px;
+  display: inline-block;
+  position: relative;
+  z-index: 99999999999999 !important;
+  bottom: 40px;
+  transform: translateX(-50%);
+  left: 50%;
+}
+.owl-dot.active {
+  background: white !important;
+  width: 17px;
+  height: 17px;
+}
+
 /* owl carousel style end*/
 
 /* sliders area end */
