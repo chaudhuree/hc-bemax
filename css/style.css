@@ -120,6 +120,9 @@ img {
 /* header area end */
 
 /* sliders area start */
+.slider-area {
+  width: 100%;
+}
 .single-slider {
   width: 100%;
   text-align: center;
@@ -148,4 +151,26 @@ img {
   padding: 20px 40px;
   display: inline-block;
 }
+
+/* owl carousel style start*/
+.owl-nav {
+}
+.owl-nav button {
+  color: #fff !important;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: red !important;
+  position: absolute;
+  top: 50%;
+}
+.owl-nav button.owl-next {
+  right: 50px;
+  left: auto;
+}
+.owl-nav button.owl-prev {
+  left: 50px;
+}
+/* owl carousel style end*/
+
 /* sliders area end */
