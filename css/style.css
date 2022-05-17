@@ -123,11 +123,29 @@ img {
 .single-slider {
   width: 100%;
   text-align: center;
+  padding: 175px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 .single-slider h2 {
+  font-size: 72px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 40px;
 }
 .single-slider h4 {
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
 }
 .single-slider a {
+  background: #4272d7;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 20px 40px;
+  display: inline-block;
 }
 /* sliders area end */
