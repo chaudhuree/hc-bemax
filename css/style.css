@@ -15,7 +15,13 @@ ul {
   width: 1170px;
   margin: auto;
 }
-
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+.fix {
+  overflow: hidden;
+}
 .header-area {
   border-top: 5px solid #4272d7;
   min-height: 120px;
@@ -111,3 +117,17 @@ ul {
   width: 1px;
   height: 15px;
 }
+/* header area end */
+
+/* sliders area start */
+.single-slider {
+  width: 100%;
+  text-align: center;
+}
+.single-slider h2 {
+}
+.single-slider h4 {
+}
+.single-slider a {
+}
+/* sliders area end */
