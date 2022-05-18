@@ -243,6 +243,67 @@ img {
 }
 /* cta area ends */
 
-
 /* features area stars */
+.features-area {
+  padding: 70px 0;
+}
+
+.single-features {
+  position: relative;
+  overflow: hidden;
+}
+
+.features-img {
+}
+
+.features-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #507bd6;
+  /*    height: 100%;*/
+  bottom: 0;
+  transition: all 0.3s;
+  padding: 30px;
+  transform: translateY(68%);
+  right: 0;
+}
+
+.feature-icon {
+  margin-bottom: 30px;
+}
+
+.feature-icon i {
+  font-size: 30px;
+  color: #fff;
+  display: inline-block;
+}
+
+.feature-icon h3 {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.features-content p {
+  color: #e5e5e5;
+  line-height: 25px;
+}
+
+.features-content a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.features-content a i {
+  margin-right: 10px;
+}
+
+.single-features:hover .features-content {
+  transform: translateY(0);
+}
+
 /* features area ends */
