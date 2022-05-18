@@ -6,6 +6,7 @@
 body {
   font-family: "Lato", sans-serif;
 }
+/* default css */
 ul {
   margin: 0;
   padding: 0;
@@ -22,6 +23,24 @@ img {
 .fix {
   overflow: hidden;
 }
+.row {
+  margin: 0 -15px;
+}
+.col-4 {
+  width: 33.33%;
+  padding: 0 15px;
+}
+.col-8 {
+  width: 66.66%;
+  padding: 0 15px;
+}
+.f-left {
+  float: left;
+}
+.f-right {
+  float: right;
+}
+/* default css end */
 .header-area {
   border-top: 5px solid #4272d7;
   min-height: 120px;
@@ -61,6 +80,7 @@ img {
   opacity: 0;
   visibility: hidden;
   transition: 0.4s;
+  z-index: 99;
 }
 .main-menu ul li ul.submenu li {
   display: block;
@@ -161,7 +181,7 @@ img {
   width: 40px;
   height: 40px;
   line-height: 40px;
-  background: red !important;
+  background: #4272d7 !important;
   position: absolute;
   top: 50%;
 }
@@ -193,7 +213,36 @@ img {
   width: 17px;
   height: 17px;
 }
-
 /* owl carousel style end*/
 
 /* sliders area end */
+
+/* cta area starts */
+.cta-area {
+  background: #4272d7;
+  padding: 30px 0;
+}
+.cta-area p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 8px;
+}
+.cta-area p span {
+  font-size: 30px;
+}
+.cta-button {
+}
+.cta-button a {
+  border: 2px solid #fff;
+  padding: 18px 45px;
+  display: inline-block;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+}
+/* cta area ends */
+
+
+/* features area stars */
+/* features area ends */
